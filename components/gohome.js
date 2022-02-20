@@ -9,6 +9,6 @@ export default function GoHome() {
         router.push('/')
     }
     return (
-        <IconButton aria-label='push' size='md'  variant='outline' icon={<AiFillHome />} onClick={() => push()}/>
+        <IconButton aria-label='push' size='lg'  variant='outline' icon={<AiFillHome />} onClick={() => push()}/>
     )
 }
