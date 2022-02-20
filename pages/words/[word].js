@@ -3,8 +3,8 @@ import styles from '../../styles/Home.module.css'
 import { Heading } from '@chakra-ui/react'
 import { Box, Button, HStack } from '@chakra-ui/react'
 import textUpper from '../../components/upper';
-import Copy from '../../components/copy';
-import Home from '../../components/Home';
+import copy from '../../components/copy';
+import home from '../../components/Home';
 const axios = require('axios');
 
 export default class Word extends React.Component {
@@ -85,8 +85,8 @@ export default class Word extends React.Component {
                                     <Box width = {'80%'} justify="left"  color = 'black'>
                                         <HStack>
                                             <Heading as = 'h1' size = '4xl' mb = {5}>{textUpper(this.props.query.word)}</Heading>
-                                            <Copy value = {copyText}/>
-                                            <Home/>
+                                            <copy value = {copyText}/>
+                                            <home/>
                                         </HStack>
                                     </Box>
                                     <Box width = {'80%'} justify="left" color = 'black' m = {5}>

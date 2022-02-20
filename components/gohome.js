@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import { AiFillHome } from "react-icons/ai";
 import { IconButton } from '@chakra-ui/react'
 
-export default function Home() {
+export default function GoHome() {
     const router = useRouter()
     
     function push() {
